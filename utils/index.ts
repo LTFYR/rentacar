@@ -35,7 +35,7 @@ export async function carsApi(filters: FilterProps) {
 
   console.log(filters);
   const headers = {
-    "X-RapidAPI-Key": process.env.NEXT_PUBLIC_API_KEY || "",
+    "X-RapidAPI-Key": "d66c609f54msh0204621ca6c47cfp16ed0ajsnc0fa53c5af23",
     "X-RapidAPI-Host": "cars-by-api-ninjas.p.rapidapi.com",
   };
 
